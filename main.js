@@ -5,9 +5,11 @@ while (nomeUsuario.trim() === "") {
     nomeUsuario = prompt("Qual é o seu nome?");
 }
 
-if (nomeUsuario === null) {
+if (nomeUsuario == null) {
     elemento.textContent = 'Seja muito bem-vindo.';
-} else {
+}
+
+else {
     elemento.textContent = nomeUsuario;
 }
 
