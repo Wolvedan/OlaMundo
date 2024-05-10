@@ -16,3 +16,8 @@ header{
 footer {
     border-top: 1px solid rgb(82, 76, 116); 
 }
+
+#nome-usuário { 
+    font-weight: bold; 
+ }
+ 
