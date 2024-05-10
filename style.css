@@ -33,3 +33,6 @@ footer {
     color: aqua;
   }
  
+  .imagem-container {
+    text-align: center; /* Centraliza a imagem horizontalmente */
+    margin-top: 20px;
