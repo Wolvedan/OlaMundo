@@ -1,15 +1,15 @@
 let nomeUsuario = "";
 let elemento = document.querySelector("#nome-usuário");
 
-while (nomeUsuario === "" || nomeUsuario === null) {
+while (nomeUsuario === null || nomeUsuario.trim() === "") {
     nomeUsuario = prompt("Qual é o seu nome?");
+    if (nomeUsuario === null || nomeUsuario.trim() === "") {
+        alert("Por favor, insira um nome válido.");
+    }
 }
 
-if (nomeUsuario === null) {
-    elemento.textContent = 'Seja muito bem-vindo.';
-} else {
-    elemento.textContent = nomeUsuario;
-}
+elemento.textContent = nomeUsuario !== null ? nomeUsuario : 'Seja muito bem-vindo.';
+
 
 
 
