@@ -1,7 +1,7 @@
 let nomeUsuario = "";
 let elemento = document.querySelector("#nome-usuário");
 
-while (nomeUsuario === "") {
+while (nomeUsuario === "" || nomeUsuario === null) {
     nomeUsuario = prompt("Qual é o seu nome?");
 }
 
