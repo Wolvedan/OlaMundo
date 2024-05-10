@@ -1,14 +1,11 @@
-let nomeUsuario = "";
-let elemento = document.querySelector("#nome-usuário");
+let nomeUsuario = prompt("Qual é o seu nome? (Pressione Cancelar se preferir não inserir um nome)");
 
-while (nomeUsuario === null || nomeUsuario.trim() === "") {
-    nomeUsuario = prompt("Qual é o seu nome?");
-    if (nomeUsuario === null || nomeUsuario.trim() === "") {
-        alert("Por favor, insira um nome válido.");
-    }
+if (nomeUsuario === null || nomeUsuario.trim() === "") {
+    alert("Você escolheu não inserir um nome. Seja muito bem-vindo.");
+} else {
+    let elemento = document.querySelector("#nome-usuário");
+    elemento.textContent = nomeUsuario;
 }
-
-elemento.textContent = nomeUsuario !== null ? nomeUsuario : 'Seja muito bem-vindo.';
 
 
 
