@@ -1,4 +1,8 @@
-let elemento = document.querySelector("#nome-usuário");
-elemento.textContent = nomeUsuário;
+var nomeUsuarioElemento = document.getElementById("nome-usuário");
+
+var nomeUsuario = "Fulano";
+
+nomeUsuarioElemento.textContent = nomeUsuario;
+
 
 
