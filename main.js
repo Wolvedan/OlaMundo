@@ -1,1 +1,2 @@
-alert("Seja muito bem-vindo");
+prompt("Qual o seu nome?");
+
