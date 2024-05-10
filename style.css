@@ -2,14 +2,6 @@ h2{
     color: red;
 }
 
-.container {
-    text-align: center;
-}
-.container img {
-    display: block;
-    margin: center;
-}
-
 body { 
     background-color: #18123b;
     color: white;
