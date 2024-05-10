@@ -1,16 +1,14 @@
-let nomeUsuario = "";
+let nomeUsuário = "";
 let elemento = document.querySelector("#nome-usuário");
 
-while (nomeUsuario.trim() == "") {
-    nomeUsuario = prompt("Qual é o seu nome?");
+while (nomeUsuário == ""){
+    nomeUsuário = prompt("Qual o seu nome?");
 }
 
-if (nomeUsuario == null) {
-    elemento.textContent = 'Seja muito bem-vindo.';
-}
-
-else {
-    elemento.textContent = nomeUsuario;
+if (nomeUsuário == null){
+    elemento.textContent = 'seja muito bem vindo.';
+}else{
+    elemento.textContent = nomeUsuário;
 }
 
 
